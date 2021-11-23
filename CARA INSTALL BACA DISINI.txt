@@ -1,0 +1,18 @@
+1. Ekstrak file ke folder XAMPP (htdocs) atau WAMP (www) atau Nginx (html)
+2. Buat database baru di phpMyAdmin
+3. Pada tab di bagian atas, cari tulisan Import
+4. Upload file yang namanya "database.sql"
+5. Klik Go / Kirim dan tunggu sampai selesai
+6. Buka folder application -> config -> database.php
+7. Edit file tersebut sesuai database yang sudah dibuat. Jangan lupa disimpan filenya
+8. Buka di browser dan masukkan localhost/NAMA_FOLDER
+   (misal di htdocs disimpan sebagai mainan ya brarti alamatnya jadi localhost/mainan)
+9. Bikin akun baru dulu di halaman pendaftaran (localhost/.../daftar)
+10. Halaman-halaman penting:
+   - login: localhost/.../login
+   - daftar: localhost/.../daftar
+   - beranda: localhost/.../overview
+   - profil: localhost/.../profil
+   - game: localhost/.../gim/gim/KODE
+     (Kodenya sudah otomatis dari sistem, sudah dienkripsi, tidak bisa dibuka langsung)
+11. Kalo bingung bisa tanya di grup aja ya :)
